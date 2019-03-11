@@ -1,0 +1,22 @@
+@import url(//db.onlinewebfonts.com/c/a0227f2dfc5fea07f5092f15f2bde8c9?family=DobraSlabW01-Bold);
+@import url(//db.onlinewebfonts.com/c/5d047d6e47ff9f3982066382d82a0202?family=Avenir+LT+Std+55+Roman);
+
+@font-face {
+    font-family: "DobraSlabW01-Light";
+    src: url("//db.onlinewebfonts.com/t/b34a170785ca1555a62d1c5298e64d27.eot");
+    src: url("//db.onlinewebfonts.com/t/b34a170785ca1555a62d1c5298e64d27.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b34a170785ca1555a62d1c5298e64d27.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/b34a170785ca1555a62d1c5298e64d27.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/b34a170785ca1555a62d1c5298e64d27.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/b34a170785ca1555a62d1c5298e64d27.svg#DobraSlabW01-Light") format("svg");
+}
+
+@font-face {
+    font-family: "Avenir LT Std 55 Roman";
+    src: url("//db.onlinewebfonts.com/t/5d047d6e47ff9f3982066382d82a0202.eot");
+    src: url("//db.onlinewebfonts.com/t/5d047d6e47ff9f3982066382d82a0202.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5d047d6e47ff9f3982066382d82a0202.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/5d047d6e47ff9f3982066382d82a0202.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/5d047d6e47ff9f3982066382d82a0202.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/5d047d6e47ff9f3982066382d82a0202.svg#Avenir LT Std 55 Roman") format("svg");
+}

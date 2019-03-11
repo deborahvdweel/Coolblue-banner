@@ -1,0 +1,181 @@
+@import "fonts.css";
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.main-div {
+    display: flex;
+    height: 600px;
+    width: 300px;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.article {
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+}
+
+h1 {
+    width: 215px;
+    font-family: DobraSlabW01-Light, serif;
+    color: #0090e3;
+    text-decoration: none;
+    line-height: 32px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+h2 {
+    width: 215px;
+    font-family: "Avenir LT Std 55 Roman", serif;
+    color: #285dab;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.img-product {
+    width: 230px;
+    height: 215px;
+}
+
+.img-spin {
+    position: absolute;
+    top: 243px;
+    left: 105px;
+    width: 91px;
+}
+
+.img-coolblue {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: height 1s;
+    transition: height 0.5s;
+}
+
+.price-sticker {
+    color: #fff;
+    font-family: "Avenir LT Std 55 Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0090e3;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 20px;
+    top: 260px;
+}
+
+.price {
+    font-size: 14px;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.price-discount {
+    font-size: 27px;
+    margin: 0;
+}
+
+.promo-label {
+    font-family: DobraSlabW01-Light, serif;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    background-color: #f60;
+    border-radius: 3px;
+    padding: .2rem .4rem 0.2rem;
+    position: absolute;
+    left: 28px;
+    top: 215px;
+}
+
+.promo-text {
+    margin: 2px 0 0 0;
+    font-size: 16px;
+}
+
+.div-info {
+    font-family: Open Sans, Arial, Helvetica, Verdana, sans-serif;
+    background-color: #0090e3;
+    color: #fff;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    -webkit-transition: height 1s;
+    transition: height 0.5s;
+}
+
+.more-info {
+    align-self: center;
+
+}
+
+.samsung-logo {
+    align-self: flex-end;
+    padding: 20px;
+}
+
+.cb-overlay {
+    background-color: #0090e3;
+    position: absolute;
+    width: 260px;
+    height: 560px;
+    z-index: 3;
+    border: 1px solid #0090e3;
+    padding: 20px;
+}
+
+.cb-img {
+    fill: #f60;
+}
+
+.cb-text {
+    fill: #fff;
+}
+
+/* css to fix position in different browsers */
+@media not all and (min-resolution: .001dpcm) {
+    @supports (-webkit-appearance:none) {
+        .img-spin {
+            top: 262px;
+        }
+
+        .price-sticker {
+            top: 275px;
+        }
+
+        .promo-label {
+            top: 230px;
+        }
+    }
+}
+
+@-moz-document url-prefix() {
+    .img-spin {
+        top: 262px;
+    }
+
+    .price-sticker {
+        top: 275px;
+    }
+
+    .promo-label {
+        top: 230px;
+    }
+}
