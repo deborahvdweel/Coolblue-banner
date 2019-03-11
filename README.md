@@ -28,3 +28,4 @@ Ik wilde met minimale animaties de aandacht wekken.
 Het idee was om ook de teksten te animeren maar vond dat dit uiteindelijk te druk werd.
 Ik vond het erg leuk om de banner te maken en heb er tegelijkertijd ook erg veel van geleerd!
 
+[Klik hier](http://deborahvdweel.nl/) om naar de banner te gaan
